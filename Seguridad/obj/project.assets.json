@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "Dominio/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
-        "compile": {
-          "bin/placeholder/Dominio.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Dominio.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "Dominio/1.0.0": {
-      "type": "project",
-      "path": "../Dominio/Dominio.csproj",
-      "msbuildProject": "../Dominio/Dominio.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "Dominio >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\Usuario\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\Usuario\\Desktop\\Juan David\\programacion\\lenguajes\\C#\\proyectos\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj",
-      "projectName": "Persistencia",
-      "projectPath": "c:\\Users\\Usuario\\Desktop\\Juan David\\programacion\\lenguajes\\C#\\proyectos\\skeleton-app-webapi\\Persistencia\\Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\Juan David\\programacion\\lenguajes\\C#\\proyectos\\skeleton-app-webapi\\Seguridad\\Seguridad.csproj",
+      "projectName": "Seguridad",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\Juan David\\programacion\\lenguajes\\C#\\proyectos\\skeleton-app-webapi\\Seguridad\\Seguridad.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\Usuario\\Desktop\\Juan David\\programacion\\lenguajes\\C#\\proyectos\\skeleton-app-webapi\\Persistencia\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\Juan David\\programacion\\lenguajes\\C#\\proyectos\\skeleton-app-webapi\\Seguridad\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "c:\\Users\\Usuario\\Desktop\\Juan David\\programacion\\lenguajes\\C#\\proyectos\\skeleton-app-webapi\\Dominio\\Dominio.csproj": {
-              "projectPath": "c:\\Users\\Usuario\\Desktop\\Juan David\\programacion\\lenguajes\\C#\\proyectos\\skeleton-app-webapi\\Dominio\\Dominio.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
